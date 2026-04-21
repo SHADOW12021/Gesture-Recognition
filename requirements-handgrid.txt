@@ -1,0 +1,10 @@
+torch
+torchvision
+datasets
+Pillow
+tqdm
+opencv-python
+onnx
+onnxruntime
+filterpy
+pynput

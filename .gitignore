@@ -1,0 +1,39 @@
+# Python cache / virtual env
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local editor / OS files
+.DS_Store
+Thumbs.db
+
+# Large local datasets
+hagrid-subset/
+hagrid-classification-512p/
+
+# Downloaded archives
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Training artifacts / exported models
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Local runtime outputs
+*.log
+
+# If you later download local MediaPipe task bundles, keep them out of git
+*.task
